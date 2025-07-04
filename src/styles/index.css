@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+header {
+  background-color: #55d4eb;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero {
+  background-color: #d6c8e2;
+  display: flex;
+  padding-top: 24px;
+  align-items: flex-start;
+  justify-content: center;
+  height: 40%;
+}
+
+#sidebar {
+  background-color: #9fc362;
+  display: flex;
+  padding-top: 24px;
+  align-items: flex-start;
+  justify-content: center;
+  height: 60%;
+}
+
+#main-content {
+  background-color: #f6c632;
+  display: flex;
+  flex-direction: column;
+  padding-top: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  height: 70%;
+}
+
+#extra-content {
+  background-color: #898989;
+  display: flex;
+  padding-top: 24px;
+  align-items: flex-start;
+  justify-content: center;
+  height: 30%;
+}
+
+#related-images {
+  background-color: #2ab673;
+  display: flex;
+  padding-top: 24px;
+  align-items: flex-start;
+  justify-content: center;
+  width: 75%;
+}
+
+#related-posts {
+  background-color: #f2cbde;
+  display: flex;
+  padding-top: 24px;
+  align-items: flex-start;
+  justify-content: center;
+  width: 25%;
+}
+
+footer {
+  background-color: #fea500;
+  display: flex;
+  padding-top: 24px;
+  align-items: flex-start;
+  justify-content: center;
+  height: 10vh;
+}
+
+.title {
+  color: #fff;
+  font-size: 32px;
+}
+
+.subtitle {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  width: 100%;
+  height: calc(60vh - 8px);
+  gap: 8px;
+}
+
+.hero-sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  gap: 8px;
+}
+
+.main-content-extra-content {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  gap: 8px;
+}
+
+.related-content {
+  display: flex;
+  flex-direction: row;
+  height: calc(20vh - 8px);
+  width: 100%;
+  gap: 8px;
+}
