@@ -9,8 +9,8 @@ Built for Metrobit using **Vite**. No additional libraries were used.
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/MatheusCandido1/metrobit-front-end-challenge.git
-cd metrobit-front-end-challenge
+git clone https://github.com/MatheusCandido1/metrobit-front-end-challenge-3.git
+cd metrobit-front-end-challenge-3
 ```
 
 
